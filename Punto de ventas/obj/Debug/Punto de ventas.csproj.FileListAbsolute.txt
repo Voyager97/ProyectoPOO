@@ -1,0 +1,48 @@
+C:\Documents\Documentos\Visual Studio\C#\Proyects\Punto de ventas\Punto de ventas\bin\Debug\Punto de ventas.exe.config
+C:\Documents\Documentos\Visual Studio\C#\Proyects\Punto de ventas\Punto de ventas\bin\Debug\Punto de ventas.exe
+C:\Documents\Documentos\Visual Studio\C#\Proyects\Punto de ventas\Punto de ventas\bin\Debug\Punto de ventas.pdb
+C:\Documents\Documentos\Visual Studio\C#\Proyects\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.csprojResolveAssemblyReference.cache
+C:\Documents\Documentos\Visual Studio\C#\Proyects\Punto de ventas\Punto de ventas\obj\Debug\Punto_de_ventas.Form1.resources
+C:\Documents\Documentos\Visual Studio\C#\Proyects\Punto de ventas\Punto de ventas\obj\Debug\Punto_de_ventas.Properties.Resources.resources
+C:\Documents\Documentos\Visual Studio\C#\Proyects\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.csproj.GenerateResource.Cache
+C:\Documents\Documentos\Visual Studio\C#\Proyects\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.exe
+C:\Documents\Documentos\Visual Studio\C#\Proyects\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.pdb
+C:\Users\Fam. Velasquez Cruz\Desktop\Programacion Orientada a Objetos\Punto de ventas\Punto de ventas\bin\Debug\Punto de ventas.exe.config
+C:\Users\Fam. Velasquez Cruz\Desktop\Programacion Orientada a Objetos\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.exe
+C:\Users\Fam. Velasquez Cruz\Desktop\Programacion Orientada a Objetos\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.pdb
+C:\Users\Fam. Velasquez Cruz\Desktop\Programacion Orientada a Objetos\Punto de ventas\Punto de ventas\bin\Debug\Punto de ventas.exe
+C:\Users\Fam. Velasquez Cruz\Desktop\Programacion Orientada a Objetos\Punto de ventas\Punto de ventas\bin\Debug\Punto de ventas.pdb
+C:\Users\Fam. Velasquez Cruz\Desktop\Programacion Orientada a Objetos\Punto de ventas\Punto de ventas\bin\Debug\linq2db.dll
+C:\Users\Fam. Velasquez Cruz\Desktop\Programacion Orientada a Objetos\Punto de ventas\Punto de ventas\bin\Debug\MySql.Data.dll
+C:\Users\Fam. Velasquez Cruz\Desktop\Programacion Orientada a Objetos\Punto de ventas\Punto de ventas\bin\Debug\linq2db.pdb
+C:\Users\Fam. Velasquez Cruz\Desktop\Programacion Orientada a Objetos\Punto de ventas\Punto de ventas\bin\Debug\MySql.Data.xml
+C:\Users\Fam. Velasquez Cruz\Desktop\Programacion Orientada a Objetos\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.csprojResolveAssemblyReference.cache
+C:\Users\Fam. Velasquez Cruz\Desktop\Programacion Orientada a Objetos\Punto de ventas\Punto de ventas\obj\Debug\Punto_de_ventas.Form1.resources
+C:\Users\Fam. Velasquez Cruz\Desktop\Programacion Orientada a Objetos\Punto de ventas\Punto de ventas\obj\Debug\Punto_de_ventas.Properties.Resources.resources
+C:\Users\Fam. Velasquez Cruz\Desktop\Programacion Orientada a Objetos\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.csproj.GenerateResource.Cache
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas\Punto de ventas\bin\Debug\Punto de ventas.exe.config
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.exe
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.pdb
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.csprojResolveAssemblyReference.cache
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas\Punto de ventas\obj\Debug\Punto_de_ventas.Form1.resources
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas\Punto de ventas\obj\Debug\Punto_de_ventas.Properties.Resources.resources
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas\Punto de ventas\obj\Debug\Punto de ventas.csproj.GenerateResource.Cache
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas\Punto de ventas\bin\Debug\Punto de ventas.exe
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas\Punto de ventas\bin\Debug\Punto de ventas.pdb
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas\Punto de ventas\bin\Debug\linq2db.dll
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas\Punto de ventas\bin\Debug\MySql.Data.dll
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas\Punto de ventas\bin\Debug\linq2db.pdb
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas\Punto de ventas\bin\Debug\MySql.Data.xml
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas EL BUENO\Punto de ventas\bin\Debug\Punto de ventas.exe.config
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas EL BUENO\Punto de ventas\obj\Debug\Punto de ventas.exe
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas EL BUENO\Punto de ventas\obj\Debug\Punto de ventas.pdb
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas EL BUENO\Punto de ventas\bin\Debug\Punto de ventas.exe
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas EL BUENO\Punto de ventas\bin\Debug\Punto de ventas.pdb
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas EL BUENO\Punto de ventas\bin\Debug\linq2db.dll
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas EL BUENO\Punto de ventas\bin\Debug\MySql.Data.dll
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas EL BUENO\Punto de ventas\bin\Debug\linq2db.pdb
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas EL BUENO\Punto de ventas\bin\Debug\MySql.Data.xml
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas EL BUENO\Punto de ventas\obj\Debug\Punto de ventas.csprojResolveAssemblyReference.cache
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas EL BUENO\Punto de ventas\obj\Debug\Punto_de_ventas.Form1.resources
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas EL BUENO\Punto de ventas\obj\Debug\Punto_de_ventas.Properties.Resources.resources
+C:\Users\Fam. Velasquez Cruz\Desktop\Punto de ventas EL BUENO\Punto de ventas\obj\Debug\Punto de ventas.csproj.GenerateResource.Cache
