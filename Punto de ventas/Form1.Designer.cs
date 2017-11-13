@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle21 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle22 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle23 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle24 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle25 = new System.Windows.Forms.DataGridViewCellStyle();
             this.button_Empleados = new System.Windows.Forms.Button();
             this.button_Productos = new System.Windows.Forms.Button();
             this.button_Clientes = new System.Windows.Forms.Button();
@@ -149,12 +149,12 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.dataGridView_ClieVen = new System.Windows.Forms.DataGridView();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
+            this.button_SeClieAntes = new System.Windows.Forms.Button();
+            this.button_SeClieSiguiente = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.button_SeProdAntes = new System.Windows.Forms.Button();
             this.dataGridView_ProdVen = new System.Windows.Forms.DataGridView();
-            this.button2 = new System.Windows.Forms.Button();
+            this.button_SeProdSiguiente = new System.Windows.Forms.Button();
             this.groupBox_ReciboVenta = new System.Windows.Forms.GroupBox();
             this.label101 = new System.Windows.Forms.Label();
             this.label_FechaVenta = new System.Windows.Forms.Label();
@@ -425,14 +425,14 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView_Empleado.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView_Empleado.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_Empleado.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle21.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle21.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle21.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle21.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle21.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle21.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_Empleado.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle21;
             this.dataGridView_Empleado.ColumnHeadersHeight = 25;
             this.dataGridView_Empleado.Location = new System.Drawing.Point(6, 19);
             this.dataGridView_Empleado.Name = "dataGridView_Empleado";
@@ -794,14 +794,14 @@
             this.dataGridView_Producto.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView_Producto.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView_Producto.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_Producto.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle22.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle22.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle22.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle22.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle22.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle22.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle22.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_Producto.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle22;
             this.dataGridView_Producto.ColumnHeadersHeight = 25;
             this.dataGridView_Producto.Location = new System.Drawing.Point(6, 8);
             this.dataGridView_Producto.Name = "dataGridView_Producto";
@@ -1220,14 +1220,14 @@
             this.dataGridView_ClienteReporte.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView_ClienteReporte.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView_ClienteReporte.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView_ClienteReporte.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle23.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle23.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle23.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle23.SelectionBackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle23.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle23.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView_ClienteReporte.DefaultCellStyle = dataGridViewCellStyle23;
             this.dataGridView_ClienteReporte.Location = new System.Drawing.Point(6, 37);
             this.dataGridView_ClienteReporte.Name = "dataGridView_ClienteReporte";
             this.dataGridView_ClienteReporte.ReadOnly = true;
@@ -1626,14 +1626,14 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView_Cliente.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView_Cliente.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_Cliente.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle24.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle24.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle24.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle24.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle24.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle24.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle24.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_Cliente.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle24;
             this.dataGridView_Cliente.ColumnHeadersHeight = 25;
             this.dataGridView_Cliente.Location = new System.Drawing.Point(6, 19);
             this.dataGridView_Cliente.Name = "dataGridView_Cliente";
@@ -1664,8 +1664,8 @@
             // groupBox8
             // 
             this.groupBox8.Controls.Add(this.dataGridView_ClieVen);
-            this.groupBox8.Controls.Add(this.button7);
-            this.groupBox8.Controls.Add(this.button8);
+            this.groupBox8.Controls.Add(this.button_SeClieAntes);
+            this.groupBox8.Controls.Add(this.button_SeClieSiguiente);
             this.groupBox8.ForeColor = System.Drawing.Color.SteelBlue;
             this.groupBox8.Location = new System.Drawing.Point(284, 455);
             this.groupBox8.Name = "groupBox8";
@@ -1686,33 +1686,35 @@
             this.dataGridView_ClieVen.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_ClieVen_CellClick);
             this.dataGridView_ClieVen.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.dataGridView_ClieVen_KeyPress);
             // 
-            // button7
+            // button_SeClieAntes
             // 
-            this.button7.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.button7.Image = ((System.Drawing.Image)(resources.GetObject("button7.Image")));
-            this.button7.Location = new System.Drawing.Point(456, 48);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(31, 29);
-            this.button7.TabIndex = 23;
-            this.button7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button7.UseVisualStyleBackColor = true;
+            this.button_SeClieAntes.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.button_SeClieAntes.Image = ((System.Drawing.Image)(resources.GetObject("button_SeClieAntes.Image")));
+            this.button_SeClieAntes.Location = new System.Drawing.Point(456, 48);
+            this.button_SeClieAntes.Name = "button_SeClieAntes";
+            this.button_SeClieAntes.Size = new System.Drawing.Size(31, 29);
+            this.button_SeClieAntes.TabIndex = 23;
+            this.button_SeClieAntes.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button_SeClieAntes.UseVisualStyleBackColor = true;
+            this.button_SeClieAntes.Click += new System.EventHandler(this.button_SeClieAntes_Click);
             // 
-            // button8
+            // button_SeClieSiguiente
             // 
-            this.button8.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.button8.Image = ((System.Drawing.Image)(resources.GetObject("button8.Image")));
-            this.button8.Location = new System.Drawing.Point(499, 48);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(30, 29);
-            this.button8.TabIndex = 21;
-            this.button8.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button8.UseVisualStyleBackColor = true;
+            this.button_SeClieSiguiente.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.button_SeClieSiguiente.Image = ((System.Drawing.Image)(resources.GetObject("button_SeClieSiguiente.Image")));
+            this.button_SeClieSiguiente.Location = new System.Drawing.Point(499, 48);
+            this.button_SeClieSiguiente.Name = "button_SeClieSiguiente";
+            this.button_SeClieSiguiente.Size = new System.Drawing.Size(30, 29);
+            this.button_SeClieSiguiente.TabIndex = 21;
+            this.button_SeClieSiguiente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button_SeClieSiguiente.UseVisualStyleBackColor = true;
+            this.button_SeClieSiguiente.Click += new System.EventHandler(this.button_SeClieSiguiente_Click);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button1);
+            this.groupBox1.Controls.Add(this.button_SeProdAntes);
             this.groupBox1.Controls.Add(this.dataGridView_ProdVen);
-            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.button_SeProdSiguiente);
             this.groupBox1.ForeColor = System.Drawing.Color.SteelBlue;
             this.groupBox1.Location = new System.Drawing.Point(284, 329);
             this.groupBox1.Name = "groupBox1";
@@ -1722,16 +1724,17 @@
             this.groupBox1.Text = "Seleccione Producto";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // button1
+            // button_SeProdAntes
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
-            this.button1.Location = new System.Drawing.Point(456, 47);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(30, 29);
-            this.button1.TabIndex = 19;
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = true;
+            this.button_SeProdAntes.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.button_SeProdAntes.Image = ((System.Drawing.Image)(resources.GetObject("button_SeProdAntes.Image")));
+            this.button_SeProdAntes.Location = new System.Drawing.Point(456, 47);
+            this.button_SeProdAntes.Name = "button_SeProdAntes";
+            this.button_SeProdAntes.Size = new System.Drawing.Size(30, 29);
+            this.button_SeProdAntes.TabIndex = 19;
+            this.button_SeProdAntes.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button_SeProdAntes.UseVisualStyleBackColor = true;
+            this.button_SeProdAntes.Click += new System.EventHandler(this.button_SeProdAntes_Click);
             // 
             // dataGridView_ProdVen
             // 
@@ -1745,15 +1748,16 @@
             this.dataGridView_ProdVen.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_ProdVen_CellClick);
             this.dataGridView_ProdVen.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.dataGridView_ProdVen_KeyPress);
             // 
-            // button2
+            // button_SeProdSiguiente
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
-            this.button2.Location = new System.Drawing.Point(499, 47);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(30, 29);
-            this.button2.TabIndex = 18;
-            this.button2.UseVisualStyleBackColor = true;
+            this.button_SeProdSiguiente.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.button_SeProdSiguiente.Image = ((System.Drawing.Image)(resources.GetObject("button_SeProdSiguiente.Image")));
+            this.button_SeProdSiguiente.Location = new System.Drawing.Point(499, 47);
+            this.button_SeProdSiguiente.Name = "button_SeProdSiguiente";
+            this.button_SeProdSiguiente.Size = new System.Drawing.Size(30, 29);
+            this.button_SeProdSiguiente.TabIndex = 18;
+            this.button_SeProdSiguiente.UseVisualStyleBackColor = true;
+            this.button_SeProdSiguiente.Click += new System.EventHandler(this.button_SeProdSiguiente_Click);
             // 
             // groupBox_ReciboVenta
             // 
@@ -1867,9 +1871,8 @@
             this.label_ReciboNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_ReciboNombre.Location = new System.Drawing.Point(73, 43);
             this.label_ReciboNombre.Name = "label_ReciboNombre";
-            this.label_ReciboNombre.Size = new System.Drawing.Size(57, 16);
+            this.label_ReciboNombre.Size = new System.Drawing.Size(0, 16);
             this.label_ReciboNombre.TabIndex = 6;
-            this.label_ReciboNombre.Text = "Nombre";
             // 
             // label40
             // 
@@ -2006,6 +2009,7 @@
             this.button_VentaUltimo.Text = "Ultimo";
             this.button_VentaUltimo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_VentaUltimo.UseVisualStyleBackColor = true;
+            this.button_VentaUltimo.Click += new System.EventHandler(this.button_VentaUltimo_Click);
             // 
             // button_VentaAnterior
             // 
@@ -2019,6 +2023,7 @@
             this.button_VentaAnterior.Text = "Anterior";
             this.button_VentaAnterior.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button_VentaAnterior.UseVisualStyleBackColor = true;
+            this.button_VentaAnterior.Click += new System.EventHandler(this.button_VentaAnterior_Click);
             // 
             // button_VentaSiguiente
             // 
@@ -2032,6 +2037,7 @@
             this.button_VentaSiguiente.Text = "Siguiente";
             this.button_VentaSiguiente.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button_VentaSiguiente.UseVisualStyleBackColor = true;
+            this.button_VentaSiguiente.Click += new System.EventHandler(this.button_VentaSiguiente_Click);
             // 
             // button_VentaPrimero
             // 
@@ -2045,6 +2051,7 @@
             this.button_VentaPrimero.Text = "Primero";
             this.button_VentaPrimero.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button_VentaPrimero.UseVisualStyleBackColor = true;
+            this.button_VentaPrimero.Click += new System.EventHandler(this.button_VentaPrimero_Click);
             // 
             // button_VentaImpri
             // 
@@ -2079,14 +2086,14 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView_Venta.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView_Venta.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView_Venta.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle25.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle25.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle25.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle25.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle25.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle25.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle25.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView_Venta.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle25;
             this.dataGridView_Venta.ColumnHeadersHeight = 25;
             this.dataGridView_Venta.Location = new System.Drawing.Point(6, 19);
             this.dataGridView_Venta.Name = "dataGridView_Venta";
@@ -2465,6 +2472,7 @@
             this.Controls.Add(this.button_Productos);
             this.Controls.Add(this.button_Clientes);
             this.Controls.Add(this.button_Ventas);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Punto de ventas";
@@ -2695,10 +2703,10 @@
         private System.Windows.Forms.DataGridView dataGridView_ProdVen;
         private System.Windows.Forms.TextBox textBox_VenProd;
         private System.Windows.Forms.TextBox textBox_VenClie;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button_SeProdAntes;
+        private System.Windows.Forms.Button button_SeProdSiguiente;
+        private System.Windows.Forms.Button button_SeClieAntes;
+        private System.Windows.Forms.Button button_SeClieSiguiente;
         private System.Windows.Forms.Label label101;
         private System.Windows.Forms.Label label_FechaVenta;
     }

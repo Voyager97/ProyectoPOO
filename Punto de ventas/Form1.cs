@@ -34,6 +34,7 @@ namespace Punto_de_ventas
         {
             InitializeComponent();
             label_FechaVenta.Text = System.DateTime.Now.ToString("dd/MM/yyyy");
+            venta.searchVenta(dataGridView_Venta, "", 1, pageSize);
             /*CODIGO DEL BOTON CLIENTES*/
             #region
             radioButton_IngresarCliente.Checked = true;
@@ -369,8 +370,6 @@ namespace Punto_de_ventas
             cliente.searchCliente(dataGridView_Cliente, "", 1, pageSize);
         }
 
-
-
         private void button_AnteriosClientes_Click(object sender, EventArgs e)
         {
             if (numPagi > 1)
@@ -380,9 +379,7 @@ namespace Punto_de_ventas
                 cliente.searchCliente(dataGridView_Cliente, "", numPagi, pageSize);
             }
         }
-
-
-
+        
         private void button_SiguientesClientes_Click(object sender, EventArgs e)
         {
             if (numPagi < pageCount)
@@ -393,14 +390,12 @@ namespace Punto_de_ventas
             }
         }
 
-
         private void button_UltimosClientes_Click(object sender, EventArgs e)
         {
             numPagi = pageCount;
             label_PaginasCliente.Text = "Pagina " + numPagi.ToString() + "/" + pageCount.ToString();
             cliente.searchCliente(dataGridView_Cliente, "", pageCount, pageSize);
         }
-
 
         private void restablecerCliente()
         {
@@ -1321,7 +1316,6 @@ namespace Punto_de_ventas
         {
             textBox_VenProd.Text = Convert.ToString(dataGridView_ProdVen.CurrentRow.Cells[2].Value);
             textBox_VenPreUni.Text = Convert.ToString(dataGridView_ProdVen.CurrentRow.Cells[5].Value);
-
         }
 
         private void dataGridViewSeleccionCliente()
@@ -1415,6 +1409,14 @@ namespace Punto_de_ventas
 
                                         label_VenPago.Text = "$" + Convert.ToString(totalV1) + ".00";
                                         label_VenCam.Text = "$" + Convert.ToString(cambioV1) + ".00";
+
+                                        string reciboProducto = Convert.ToString(dataGridView_ProdVen.CurrentRow.Cells[2].Value), totalrecibo = Convert.ToString(totalV1);
+                                        string cambiorecibo = Convert.ToString(cambioV1);
+                                        label_ReciboProducto.Text = reciboProducto;
+                                        label_ReciboCantidad.Text = textBox_VenCant.Text;
+                                        label_ReciboTotal.Text = totalrecibo;
+                                        label_ReciboCambio.Text = cambiorecibo;
+                                        label_ReciboDeuda.Text = "$0.00";
                                     }
                                     else if (radioButton_VentaCliFre.Checked)
                                     {
@@ -1431,6 +1433,15 @@ namespace Punto_de_ventas
 
                                         label_VenPago.Text = "$" + Convert.ToString(totalV1) + ".00";
                                         label_VenDeu.Text = "$" + Convert.ToString(deudaV1) + ".00";
+
+                                        string reciboProducto = Convert.ToString(dataGridView_ProdVen.CurrentRow.Cells[2].Value), totalrecibo = Convert.ToString(totalV1);
+                                        string deudarecibo = Convert.ToString(deudaV1);
+                                        label_ReciboNombre.Text = Convert.ToString(dataGridView_ClieVen.CurrentRow.Cells[2].Value);
+                                        label_ReciboProducto.Text = reciboProducto;
+                                        label_ReciboCantidad.Text = textBox_VenCant.Text;
+                                        label_ReciboTotal.Text = totalrecibo;
+                                        label_ReciboCambio.Text = "$0.00";
+                                        label_ReciboDeuda.Text = deudarecibo;
                                     }
                                 }
                             }
@@ -1448,6 +1459,76 @@ namespace Punto_de_ventas
         private void button_VenCobrar_Click(object sender, EventArgs e)
         {
             cobrarPago();
+        }
+
+        private void button_VentaPrimero_Click(object sender, EventArgs e)
+        {
+            numPagi = 1;
+            label_PaginasVenta.Text = "Pagina " + numPagi.ToString() + "/" + pageCount.ToString();
+            venta.searchVenta(dataGridView_Venta, "", 1, pageSize);
+        }
+
+        private void button_VentaAnterior_Click(object sender, EventArgs e)
+        {
+            if (numPagi > 1)
+            {
+                numPagi -= 1;
+                label_PaginasVenta.Text = "Pagina " + numPagi.ToString() + "/" + pageCount.ToString();
+                venta.searchVenta(dataGridView_Venta, "", numPagi, pageSize);
+            }
+        }
+
+        private void button_VentaSiguiente_Click(object sender, EventArgs e)
+        {
+            if (numPagi < pageCount)
+            {
+                numPagi += 1;
+                label_PaginasVenta.Text = "Pagina " + numPagi.ToString() + "/" + pageCount.ToString();
+                venta.searchVenta(dataGridView_Venta, "", numPagi, pageSize);
+            }
+        }
+
+        private void button_VentaUltimo_Click(object sender, EventArgs e)
+        {
+            numPagi = pageCount;
+            label_PaginasVenta.Text = "Pagina " + numPagi.ToString() + "/" + pageCount.ToString();
+            venta.searchVenta(dataGridView_Venta, "", pageCount, pageSize);
+        }
+
+        private void button_SeProdAntes_Click(object sender, EventArgs e)
+        {
+            if (numPagi > 1)
+            {
+                numPagi -= 1;
+                venta.searchVenta(dataGridView_ProdVen, "", numPagi, pageSize);
+            }
+        }
+
+        private void button_SeProdSiguiente_Click(object sender, EventArgs e)
+        {
+            if (numPagi < pageCount)
+            {
+                numPagi += 1;
+                venta.searchVenta(dataGridView_ProdVen, "", numPagi, pageSize);
+            }
+        }
+
+        private void button_SeClieAntes_Click(object sender, EventArgs e)
+        {
+            if (numPagi > 1)
+            {
+                numPagi -= 1;
+                venta.searchVenta(dataGridView_ClieVen, "", numPagi, pageSize);
+            }
+        }
+
+        private void button_SeClieSiguiente_Click(object sender, EventArgs e)
+        {
+            if (numPagi < pageCount)
+            {
+                numPagi += 1;
+                venta.searchVenta(dataGridView_ClieVen, "", numPagi, pageSize);
+            }
         }
 
         #endregion
